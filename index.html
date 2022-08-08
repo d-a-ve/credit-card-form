@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="main-container">
+            <!------- Card picture ---------->
+            <div class="card-container">
+                <!----- visa logo and cc logo--------->
+                <div class="card-logo">
+                    <img src="assets/cc-logo.png" class="logo-img" alt="cc-logo">
+
+                    <img src="assets/visa-logo.png" class="logo-img" alt="visa-logo">
+                </div>
+
+                <!------ 12 digits on the card ------->
+                <div class="card-digits">
+                    <p class="card-number">4242</p>
+
+                    <p class="card-numbers">****</p>
+
+                    <p class="card-numbers">****</p>
+
+                    <p class="card-number">4242</p>
+                </div>
+
+                <!----- Card holder name and expiry date -------->
+                <div class="card-details">
+
+                    <!------- card holder name container -------->
+                    <div class="card-holder-expiry-date">
+                        <span class="title">
+                            Card Holder
+                        </span>
+
+                        <p class="subtitle">
+                            David Aronmwan
+                        </p>
+                    </div>
+
+                    <!----- expiry date container -------->
+                    <div class="card-holder-expiry-date">
+                        <span class="title">
+                            Expires
+                        </span>
+
+                        <p class="subtitle">
+                            02/23
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!------ card form container -------->
+            <div class="card-form">
+
+                <!------ form details -------->
+                <form class="form">
+
+                    <!------ card form input 1 ---------->
+                    <div class="card-input">
+                        <label for="card-number" name="card-number-label">Card Number</label>
+                        <input type="number" name="card-number" class="inputs">
+                    </div>
+
+                    <!------ card form input 2 ---------->
+                    <div class="card-input">
+                        <label for="card-holder" name="card-holder-label">Card holder</label>
+                        <input type="text" name="card-holder" class="inputs">
+                    </div>
+
+                    <!------ card form input 3 ---------->
+                    <div class="card-input">
+                        <label for="expiry-date" name="card-expiry-date-label">Expiration Date</label>
+
+                        <!------ dual input fields --------->
+                        <div class="dual-inputs">
+                            <select class="inputs" name="card-month">
+                                <option value="01" selected>01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select class="inputs" name="card-year">
+                                <option value="2022" selected>2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                            </select>
+
+                            <!------ card form input 4 ---------->
+                            <div class="card-input">
+                                <label for="card-cvv" name="card-cvv-label">CVV</label>
+                                <input type="number" name="card-cvv" class="inputs">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------- submit btn------------->
+                    <input class="submit-btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
