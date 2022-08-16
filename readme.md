@@ -1,4 +1,7 @@
 ## This is a challenge from the Web Developer Mentor, it is a credit card form.
+
+The page is live at [https://creditcardformwebdev.netlify.app/](https://creditcardformwebdev.netlify.app/)
+
 Images of the credit card form in desktop and mobile view is below
 
 ![desktop-normal-state](https://user-images.githubusercontent.com/108290182/183456165-2be6f486-1ef9-4144-88d9-a97218bf6314.png) ![mobile-normal-state](https://user-images.githubusercontent.com/108290182/183456203-793d4aa0-5f99-48a9-882b-15a58f77dd29.png)
